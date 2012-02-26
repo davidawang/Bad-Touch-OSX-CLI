@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C017CFCE14C900ED00542FC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C017CFCD14C900ED00542FC5 /* AudioToolbox.framework */; };
+		C017CFD714C9016200542FC5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C017CFD614C9016200542FC5 /* CoreFoundation.framework */; };
+		C017CFEF14C9041C00542FC5 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C017CFED14C9041C00542FC5 /* CAXException.cpp */; };
+		C03F2AB214C9004C00545198 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C03F2AB114C9004C00545198 /* main.cpp */; };
+		C03F2AB414C9004C00545198 /* BadTouchCLI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C03F2AB314C9004C00545198 /* BadTouchCLI.1 */; };
+		C09B2EC614CA1CB300C9EE00 /* SoundAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C09B2EC514CA1CB300C9EE00 /* SoundAnalyzer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C03F2AAB14C9004C00545198 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C03F2AB414C9004C00545198 /* BadTouchCLI.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C017CFCD14C900ED00542FC5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C017CFD614C9016200542FC5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C017CFED14C9041C00542FC5 /* CAXException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = Extras/CoreAudio/PublicUtility/CAXException.cpp; sourceTree = DEVELOPER_DIR; };
+		C017CFEE14C9041C00542FC5 /* CAXException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Extras/CoreAudio/PublicUtility/CAXException.h; sourceTree = DEVELOPER_DIR; };
+		C03F2AAD14C9004C00545198 /* BadTouchCLIDebug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BadTouchCLIDebug; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F2AB114C9004C00545198 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C03F2AB314C9004C00545198 /* BadTouchCLI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BadTouchCLI.1; sourceTree = "<group>"; };
+		C09B2EC414CA126500C9EE00 /* SoundAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundAnalyzer.h; sourceTree = "<group>"; };
+		C09B2EC514CA1CB300C9EE00 /* SoundAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundAnalyzer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03F2AAA14C9004C00545198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C017CFD714C9016200542FC5 /* CoreFoundation.framework in Frameworks */,
+				C017CFCE14C900ED00542FC5 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03F2AA214C9004C00545198 = {
+			isa = PBXGroup;
+			children = (
+				C017CFED14C9041C00542FC5 /* CAXException.cpp */,
+				C017CFEE14C9041C00542FC5 /* CAXException.h */,
+				C017CFD614C9016200542FC5 /* CoreFoundation.framework */,
+				C017CFCD14C900ED00542FC5 /* AudioToolbox.framework */,
+				C03F2AB014C9004C00545198 /* BadTouchCLI */,
+				C03F2AAE14C9004C00545198 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		C03F2AAE14C9004C00545198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03F2AAD14C9004C00545198 /* BadTouchCLIDebug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03F2AB014C9004C00545198 /* BadTouchCLI */ = {
+			isa = PBXGroup;
+			children = (
+				C03F2AB114C9004C00545198 /* main.cpp */,
+				C09B2EC514CA1CB300C9EE00 /* SoundAnalyzer.cpp */,
+				C03F2AB314C9004C00545198 /* BadTouchCLI.1 */,
+				C09B2EC414CA126500C9EE00 /* SoundAnalyzer.h */,
+			);
+			path = BadTouchCLI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03F2AAC14C9004C00545198 /* BadTouchCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03F2AB714C9004C00545198 /* Build configuration list for PBXNativeTarget "BadTouchCLI" */;
+			buildPhases = (
+				C03F2AA914C9004C00545198 /* Sources */,
+				C03F2AAA14C9004C00545198 /* Frameworks */,
+				C03F2AAB14C9004C00545198 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadTouchCLI;
+			productName = BadTouchCLI;
+			productReference = C03F2AAD14C9004C00545198 /* BadTouchCLIDebug */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03F2AA414C9004C00545198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Pennsylvania";
+			};
+			buildConfigurationList = C03F2AA714C9004C00545198 /* Build configuration list for PBXProject "BadTouchCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C03F2AA214C9004C00545198;
+			productRefGroup = C03F2AAE14C9004C00545198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03F2AAC14C9004C00545198 /* BadTouchCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03F2AA914C9004C00545198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C017CFEF14C9041C00542FC5 /* CAXException.cpp in Sources */,
+				C03F2AB214C9004C00545198 /* main.cpp in Sources */,
+				C09B2EC614CA1CB300C9EE00 /* SoundAnalyzer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C03F2AB514C9004C00545198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C03F2AB614C9004C00545198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C03F2AB814C9004C00545198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+			};
+			name = Debug;
+		};
+		C03F2AB914C9004C00545198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03F2AA714C9004C00545198 /* Build configuration list for PBXProject "BadTouchCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03F2AB514C9004C00545198 /* Debug */,
+				C03F2AB614C9004C00545198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03F2AB714C9004C00545198 /* Build configuration list for PBXNativeTarget "BadTouchCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03F2AB814C9004C00545198 /* Debug */,
+				C03F2AB914C9004C00545198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03F2AA414C9004C00545198 /* Project object */;
+}
